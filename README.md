@@ -18,22 +18,18 @@ requirements.
 The primary contributions of this study include:
 
 1. Dataset Utilization:
-○ Employed historical financial data from 2015 to 2020.
-○ Standardized the sequence length to 60 for all models.
-○ Encoded numerical sequences into text format for LLM compatibility.
+Employed historical financial data from 2015 to 2020.
+Standardized the sequence length to 60 for all models.
+Encoded numerical sequences into text format for LLM compatibility.
 
 2. Exploration of Models:
-○ Analyzed traditional models like ARIMA and XGBoost for baseline comparisons.
-○ Trained LSTM networks to handle long-term dependencies in time series data.
-○ Adapted transformer-based models, including T5 and GPT-2, for numerical
-sequence prediction.
+Analyzed traditional models like ARIMA and XGBoost for baseline comparisons.
+Trained LSTM networks to handle long-term dependencies in time series data.
+Adapted transformer-based models, including T5 and GPT-2, for numerical sequence prediction.
 
 3. Evaluation Metrics:
-○ Used metrics such as Root Mean Square Error (RMSE) and Mean Absolute
-Percentage Error (MAPE) to compare model performance.
+Used metrics such as Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE) to compare model performance.
 
 4. Experimental Insights:
-○ Demonstrated the ability of LLMs to outperform traditional models in datasets
-with clear patterns.
-○ Highlighted challenges in multi-period forecasting and areas for future
-improvement.
+Demonstrated the ability of LLMs to outperform traditional models in datasets with clear patterns.
+Highlighted challenges in multi-period forecasting and areas for future improvement.
